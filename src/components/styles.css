@@ -1,0 +1,273 @@
+.pro{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(234, 235, 234);
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+}
+
+.banner-row-1{
+    margin: 10px 10px;
+    padding: 20px 20px;
+   
+}
+
+.container{
+    width:1100px;
+    max-width: 100%;
+    margin: 0 auto;
+  
+}
+.row{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    flex: 1 1 21rem;
+    display: flex;
+    margin: 10px 20px;
+    flex-direction:column; 
+    width: 350px;
+    background-color: antiquewhite;
+    box-shadow: 0 0 15PX rgba(0, 0, 0, 0.4);
+    border-radius: 25px;
+    padding: 10px 20px;
+    align-self: normal;
+}
+
+.card:hover{
+    border-top-left-radius: calc(2rem);
+    border-top-right-radius: calc(0.25rem);
+    border-radius: 2rem;
+    border-bottom-left-radius: 0.25rem;
+    box-shadow: 0px 0px 50px grey;
+}
+
+
+.card h4{
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin: 10px 20px;
+
+}
+.card img{
+    margin: 0;
+    padding: 0;
+    max-width: 380px;
+    
+}
+
+.card p{
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+
+}
+.card .btn{
+    display: inline-block;
+    margin-top: auto;
+    background: green;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.more-btn{
+    margin: 25px 25px;
+    padding: 10px 20px;
+
+}
+
+.banner-row-2{
+    margin: 10px 10px;
+    padding: 20px 20px;
+   
+}
+
+.banner-row-3{
+    margin: 10px 10px;
+    padding: 20px 20px;
+   
+}
+
+
+
+
+.vege-banner-row-1{
+    margin: 10px 10px;
+    padding: 20px 20px;
+   
+}
+
+.container{
+    width:1100px;
+    max-width: 100%;
+    margin: 20px 30px;
+    padding: 10px 20px ;
+  
+}
+.vege-row{
+    margin: 20px 2px;
+    padding: 10px 20px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.vege-card{
+    flex: 1 1 21rem;
+    display: flex;
+    margin: 10px 20px;
+    flex-direction:column; 
+    width: 300px;
+    background-color: antiquewhite;
+    box-shadow: 0 0 15PX rgba(0, 0, 0, 0.4);
+    border-radius: 25px;
+    padding: 50px 50px;
+    align-self: normal;
+    margin-bottom: 50px;
+}
+
+.vege-card:hover{
+    border-top-left-radius: calc(2rem);
+    border-top-right-radius: calc(0.25rem);
+    border-radius: 2rem;
+    border-bottom-left-radius: 0.25rem;
+    box-shadow: 0px 0px 50px grey;
+}
+
+
+.vege-card h4{
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin: 10px 20px;
+
+}
+.vege-card img{
+    margin: 0;
+    padding: 0;
+    max-width: 380px;
+    
+}
+
+.vege-card p{
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+
+}
+.vege-card .btn{
+    display: inline-block;
+    margin-top: auto;
+    background: green;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+
+
+
+.fruit-banner-row-1{
+    margin: 10px 10px;
+    padding: 20px 20px;
+   
+}
+
+.container{
+    width:1100px;
+    max-width: 100%;
+    margin: 20px 30px;
+    padding: 10px 20px ;
+  
+}
+.fruit-row{
+    margin: 20px 10px;
+    padding: 10px 20px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.fruit-card{
+    flex: 1 1 21rem;
+    display: flex;
+    margin: 10px 20px;
+    flex-direction:column; 
+    width: 250px;
+    background-color: antiquewhite;
+    box-shadow: 0 0 15PX rgba(0, 0, 0, 0.4);
+    border-radius: 25px;
+    padding: 50px 50px;
+    align-self: normal;
+    margin-bottom: 50px;
+}
+
+.fruit-card:hover{
+    border-top-left-radius: calc(2rem);
+    border-top-right-radius: calc(0.25rem);
+    border-radius: 2rem;
+    border-bottom-left-radius: 0.25rem;
+    box-shadow: 0px 0px 50px grey;
+}
+
+
+.fruit-card h4{
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin: 10px 20px;
+
+}
+.fruit-card img{
+    margin: 0;
+    padding: 0;
+    max-width: 380px;
+    
+}
+
+.fruit-card p{
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+
+}
+.fruit-card .btn{
+    display: inline-block;
+    margin-top: auto;
+    background: green;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+

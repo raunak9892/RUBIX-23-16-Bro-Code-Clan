@@ -1,0 +1,256 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* background-color: antiquewhite; */
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+/*NavBar*/
+#logo{
+    /* border: 2px solid black; */
+    display: flex;
+    width: 30%;
+    justify-content: center;
+}
+#logo img {
+    height: 80px;
+    /* margin-left: 20%; */
+}
+
+#navbar {
+    display: flex;
+    /* border: 2px solid black; */
+    align-items: center;
+    /* position: relative; */
+    position: fixed;
+    width: 100%;
+
+}
+
+#navbar ul {
+    /* border: 2px solid green; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+}
+
+#navbar::before {
+    content: "";
+    background-color: rgb(11, 4, 18);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    opacity: 0.4;
+}
+
+#navbar ul li {
+    position: relative;
+    z-index: 2;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    
+}
+
+#navbar ul li a:hover {
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+}
+
+
+/*Home Section*/
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 100px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 2px solid blue; */
+    
+}
+
+#home::before {
+    content: "";
+    background: url(bg1.jpg) no-repeat left top/100vw 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.70;
+    /* border: 2px solid palevioletred; */
+}
+
+#home h1{
+    color: rgb(31, 70, 103);
+    text-align: center;
+    
+}
+#home p{
+    color: rgb(31, 70, 103);
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.btn{
+    padding: 5px 10px;
+    margin: 15px;
+    font-size: 1.2rem;
+    border: 1px solid rgb(31, 70, 103);
+    color: aliceblue;
+    background-color: rgb(166, 166, 223);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* ABOUT SECTION */
+.about-container{
+    margin-top: 40px ;
+    margin-bottom: 40px;
+}
+#about{
+    /* margin-right: ; */
+    display: flex;
+    /* border: 2px solid rgb(190, 112, 112); */
+    padding-left: 15%;
+    padding-right: 20%;
+}
+
+/* #about .box{
+    /* border: 2px solid black; */
+    /* max-width: 40%; 
+
+}*/
+#about .box img{
+    /* height: 350px;  */
+    width: 95%;
+    /* height: 45%; */
+    /* border: 2px solid red;  */
+    display: block;
+    margin: auto;
+}
+#about .box h2{
+    /* display: block; */
+    /* width: 30%; */
+    font-size: 3em;
+    text-align: left;
+    /* border: 2px solid green;   */
+}
+#about .box p{
+    margin: 10px;
+    padding: 0px 10px;
+}
+
+
+/* Services Section */
+.services-container{
+    /* border: 2px solid black; */
+    border-top: 2px solid rgb(4, 37, 4);
+    border-bottom: 2px solid rgb(4, 37, 4);
+    background-color: rgb(228, 248, 241);
+}
+.services-container h1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 20px auto;
+}
+.service-info{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    align-self: normal;
+    
+}
+.service-box{
+    margin-top: 20px ;
+    margin-bottom: 30px ;
+    /* margin-left: 30px; */
+    /* border: 2px solid green; */
+    /* background-color: rgb(245, 251, 247); */
+    width: 25%;
+    height: 350px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: inset;
+    box-sizing: border-box;
+    /* flex: 1 1 21rem; */
+
+
+
+}
+.service-box:hover{
+    /* border: 2px solid rgb(86, 125, 86); */
+    border-radius: 10px;
+    background-color:rgb(222, 239, 233);
+    box-shadow: 0px 0px 14px rgb(73, 142, 73);
+}
+.service-box img{
+    margin: 20px auto;
+    width: 100px;
+}
+
+
+/*Shop Section*/
+/* .shop{
+
+} */
+.shop h1{
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+
+@media screen and (min-width: 568px){
+    .cards-wrapper{
+        display: flex;
+        justify-content: center;
+    }
+
+    .card{
+        margin: 1rem;
+        width: calc(100%/5);
+        border-radius: 2rem;
+        border-bottom-left-radius: 0.25rem;
+        border-top-right-radius: calc(0.25rem);
+        box-sizing: border-box;
+        z-index: 1;
+    }
+
+    .image-wrapper{
+        height: 22vw;
+        display: flex;
+        
+    }
+}
+    .card .image-wrapper img{
+       
+        object-fit: fill;
+        
+    }
+    

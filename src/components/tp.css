@@ -1,0 +1,19 @@
+body{
+  width: auto;
+  min-height: 75vh;
+  align-items: center;
+  justify-content: left;
+}
+
+*{
+  margin: 50px 75px;
+  padding: 10px 20px;
+
+}
+.quote-column-1{
+   text-align: left;
+   font-family: sans-serif;
+   font-size: large;
+
+  }
+  
